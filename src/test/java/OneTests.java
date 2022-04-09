@@ -29,7 +29,7 @@ public class OneTests {
                 .then().statusCode(201); // Проверяем код ответа
     }*/
 
-    @Test
+/*    @Test
     @DisplayName("Like the first photo")
     @Description("This test is for liking the first photo on Mesto.")
     public void likeTheFirstPhoto() {
@@ -37,7 +37,7 @@ public class OneTests {
 
         likePhotoById(photoId);
         deleteLikePhotoById(photoId);
-    }
+    }*/
 
     @Step("Take the first photo from the list")
     private String getTheFirstPhotoId() {
