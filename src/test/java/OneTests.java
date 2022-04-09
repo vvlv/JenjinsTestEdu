@@ -17,7 +17,7 @@ public class OneTests {
         RestAssured.baseURI = "https://qa-mesto.praktikum-services.ru";
     }
 
-    @Test
+/*    @Test
     @DisplayName("Add a new photo")
     @Description("This test is for adding a new photo to Mesto.")
     public void addNewPhoto() {
@@ -27,7 +27,7 @@ public class OneTests {
                 .body("{\"name\":\"Москва\",\"link\":\"https://code.s3.yandex.net/qa-automation-engineer/java/files/paid-track/sprint1/photoSelenium.jpg\"}") // Формируем тело запроса
                 .post("/api/cards") // Делаем POST-запрос
                 .then().statusCode(201); // Проверяем код ответа
-    }
+    }*/
 
     @Test
     @DisplayName("Like the first photo")
